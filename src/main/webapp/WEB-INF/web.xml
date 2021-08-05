@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>myfirstservlet.FirstServletProject</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>myfirstservlet.LoginServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>FirstServletProject</servlet-name>
   	<url-pattern>/FirstServletProject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
   </servlet-mapping>
 </web-app>
