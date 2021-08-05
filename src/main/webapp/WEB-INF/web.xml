@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>FirstServletProject</servlet-name>
+  	<display-name>FirstServletProject</display-name>
+  	<description></description>
+  	<servlet-class>myfirstservlet.FirstServletProject</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FirstServletProject</servlet-name>
+  	<url-pattern>/FirstServletProject</url-pattern>
+  </servlet-mapping>
+</web-app>
